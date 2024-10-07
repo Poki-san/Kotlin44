@@ -14,9 +14,10 @@ fun main() {
         (1..9).random(),
         (1..9).random()
     )
+
     var sum = 0
-    for (i in 2..8)
-        sum+=z1[i]
+    for (i in z1.subList(2,9))
+        sum+=i
     println(sum)
     println()
 
