@@ -15,9 +15,7 @@ fun main() {
         (1..9).random()
     )
 
-    var sum = 0
-    for (i in z1.subList(2,9))
-        sum+=i
+    val sum = z1.subList(2,9).sum()
     println(sum)
     println()
 
